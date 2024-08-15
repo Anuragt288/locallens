@@ -1,0 +1,104 @@
+/* src/pages/owner/FoodMenu.css */
+
+.food-menu-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .food-menu-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .mess-info-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .mess-info-container .mess-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .mess-info-container .mess-details {
+    padding-left: 20px;
+  }
+  
+  .mess-info-container .mess-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mess-info-container .mess-details p {
+    margin: 0;
+    color: #777;
+  }
+  
+  .mess-info-container .mess-details .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .mess-info-container .mess-details .btn {
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .menu-list-container {
+    margin-top: 30px;
+  }
+  
+  .menu-list-table {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .menu-list-table th, .menu-list-table td {
+    vertical-align: middle;
+  }
+  
+  .menu-list-table th {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .menu-list-table td {
+    text-align: center;
+  }
+  
+  .menu-list-table .btn {
+    width: 100%;
+  }
+  
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-body .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .modal-body .btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .modal-body .btn:hover {
+    background-color: #218838;
+  }
+  

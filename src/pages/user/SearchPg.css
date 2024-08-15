@@ -1,0 +1,34 @@
+/* SearchPG.css */
+
+.pg-info-container {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pg-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pg-details h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.pg-details p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.btn-success {
+  margin-top: 16px;
+}

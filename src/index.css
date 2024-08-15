@@ -1,13 +1,74 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar {
+  height: 100vh;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  padding-top: 20px;
+}
+
+.sidebar .nav-link {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+
+/* src/index.css */
+.circle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+
+.lg-box {
+  font-size: 24px;
+}
+
+.bg-light-success {
+  background-color: #d4edda;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.bg-light-danger {
+  background-color: #f8d7da;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.bg-light-warning {
+  background-color: #fff3cd;
+}
+
+.text-warning {
+  color: #ffc107;
+}
+
+.bg-light-info {
+  background-color: #d1ecf1;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.bi{
+  margin: 15px;
 }

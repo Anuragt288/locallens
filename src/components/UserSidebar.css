@@ -1,0 +1,32 @@
+/* src/styles/UserSidebar.css */
+
+.sidebar {
+    background: #343a40;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+  }
+  
+  .sidebar h2 {
+    color: #ffc107;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  

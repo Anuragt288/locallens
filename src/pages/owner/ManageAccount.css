@@ -1,0 +1,82 @@
+
+.manage-account-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+.manage-account-container h1{
+    margin-bottom: 2rem;
+  }
+  
+  .manage-account-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .manage-account-form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .manage-account-form .form-label {
+    font-weight: bold;
+  }
+  
+  .manage-account-form .btn {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+  }
+  
+  .manage-account-form .btn:hover {
+    background-color: #218838;
+  }
+  
+  .pg-info-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    padding: 20px;
+  }
+  
+  .pg-info-container .pg-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .pg-info-container .pg-details {
+    padding-left: 20px;
+  }
+  
+  .pg-info-container .pg-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .pg-info-container .pg-details p {
+    margin: 0;
+    color: #777;
+  }
+  
+  .pg-info-container .pg-details .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .pg-info-container .pg-actions {
+    margin-top: 15px;
+  }
+  
+  .pg-info-container .pg-actions .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .rowclass{
+    margin-bottom: 20px;
+  }
